@@ -7,42 +7,42 @@ This is meant to be used as an example and a starting off point.
 
 <b>Path:</b> /countries/name/pan <br>
 <b>Returns:</b> <br>
-{<br>
-  "status": "success",<br>
-  "statusCode": 200,<br>
-  "data": [<br>
-    {<br>
-      "name": "Japan",<br>
-      "capital": "Tokyo",<br>
-      "phone_code": "81",<br>
-      "currency_name": "Japanese yen",<br>
-      "region": "Asia"<br>
-    },<br>
-    {<br>
-      "name": "Panama",<br>
-      "capital": "Panama City",<br>
-      "phone_code": "507",<br>
-      "currency_name": "Panamanian balboa",<br>
-      "region": "Americas"<br>
-    }<br>
-  ]<br>
-}<br>
+&emsp;{<br>
+&emsp;"status": "success",<br>
+&emsp;"statusCode": 200,<br>
+&emsp;"data": [<br>
+&emsp;{<br>
+      &emsp;&emsp;"name": "Japan",<br>
+      &emsp;&emsp;"capital": "Tokyo",<br>
+      &emsp;&emsp;"phone_code": "81",<br>
+      &emsp;&emsp;"currency_name": "Japanese yen",<br>
+      &emsp;&emsp;"region": "Asia"<br>
+&emsp;},<br>
+&emsp;{<br>
+      &emsp;&emsp;"name": "Panama",<br>
+      &emsp;&emsp;"capital": "Panama City",<br>
+      &emsp;&emsp;"phone_code": "507",<br>
+      &emsp;&emsp;"currency_name": "Panamanian balboa",<br>
+      &emsp;&emsp;"region": "Americas"<br>
+&emsp;}<br>
+&emsp;]<br>
+&emsp;}<br>
 <br>
 <b>Path:</b> /countries/phonecode/56<br>
 <b>Returns:</b> <br>
-{<br>
-  "status": "success",<br>
-  "statusCode": 200,<br>
-  "data": [<br>
-    {<br>
-      "name": "Chile",<br>
-      "capital": "Santiago",<br>
-      "phone_code": "56",<br>
-      "currency_name": "Chilean peso",<br>
-      "region": "Americas"<br>
-    }<br>
-  ]<br>
-}<br>
+&emsp;{<br>
+  &emsp;"status": "success",<br>
+  &emsp;"statusCode": 200,<br>
+  &emsp;"data": [<br>
+    &emsp;{<br>
+      &emsp;&emsp;"name": "Chile",<br>
+      &emsp;&emsp;"capital": "Santiago",<br>
+      &emsp;&emsp;"phone_code": "56",<br>
+      &emsp;&emsp;"currency_name": "Chilean peso",<br>
+      &emsp;&emsp;"region": "Americas"<br>
+    &emsp;}<br>
+  &emsp;]<br>
+&emsp;}<br>
 <br>
 <br>
 <br>
